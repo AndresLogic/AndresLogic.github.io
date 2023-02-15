@@ -1,0 +1,87 @@
+.scale-up-horizontal-center{
+animation:scale-up-horizontal-center 0.4s
+} 
+@keyframes scale-up-horizontal-center
+{0%{transform:scaleX(.2)}100%{transform:scaleX(1)
+}}
+
+.section {
+    display: flex;
+    width: 650;
+    height: 450;
+}
+
+.section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.section img:hover{
+    cursor: crosshair;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.div_image{
+    width: 100% !important;
+}
+.titulo{
+  color: #1f1fb3 !important;
+  font-family: 'Cabin', sans-serif !important;
+  text-align: center;
+  width: 100% !important;
+}
+
+body{
+    background: white !important;
+}
+
+.pmenu{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#menu1:hover{
+    background-color: rgb(13, 155, 48) !important;
+}
+#menu2:hover{
+    background-color: rgb(164, 94, 2) !important;
+}
+#menu3:hover{
+    background-color: rgb(3, 85, 153) !important;
+}
+
+.div_header{  
+  display: inline-flex;
+  width: auto;
+}
+.div_header2{
+    margin-left: 40px;
+    display: flow-root;
+}
+.bmenu{
+    width: 150px !important;
+    cursor: pointer;
+}
+
+.scale-up-horizontal-center:hover {
+    animation: scale-up-horizontal-center 0.4s;
+}
+
+.titulo_header{
+    font-family: Boston caps;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.p_header{
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
