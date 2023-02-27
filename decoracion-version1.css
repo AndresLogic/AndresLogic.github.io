@@ -1,3 +1,4 @@
+
 .scale-up-horizontal-center{
 animation:scale-up-horizontal-center 0.4s
 } 
@@ -7,8 +8,8 @@ animation:scale-up-horizontal-center 0.4s
 
 .section {
     display: flex;
-    width: 650;
-    height: 450;
+    width: 200;
+    height: 350;
 }
 
 .section img {
@@ -20,9 +21,14 @@ animation:scale-up-horizontal-center 0.4s
 }
 .section img:hover{
     cursor: crosshair;
-    width: 150px;
+    width: 100px;
     opacity: 1;
     filter: contrast(120%);
+}
+
+.section2 {
+    display: flex;
+    width: 60px;
 }
 
 .div_image{
@@ -84,4 +90,16 @@ body{
     font-size: 20px;
     margin-top: 0px;
 }
+
+.logos{
+    width: 100px;
+    box-shadow: 20px 3px 6px black;
+}
+
+.logos-2{
+    width: 150px;
+}
+
+
+
 
